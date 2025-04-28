@@ -15,7 +15,7 @@ task:
     - apt update
     - apt -y upgrade 
     - DEBIAN_FRONTEND=noninteractive apt install -y bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev openjdk-8-jdk git-lfs python-is-python3 wget
-    - DEBIAN_FRONTEND=noninteractive apt install git-core gnupg flex bison build-essential zip curl zlib1g-dev libc6-dev-i386 x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig repo wget rsync git-lfs openjdk-8-jdk python-is-python3
+    - DEBIAN_FRONTEND=noninteractive apt install -y git-core gnupg flex bison build-essential zip curl zlib1g-dev libc6-dev-i386 x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig repo wget rsync git-lfs openjdk-8-jdk python-is-python3
     - curl https://storage.googleapis.com/git-repo-downloads/repo > /usr/local/bin/repo
     - chmod a+x /usr/local/bin/repo
     
