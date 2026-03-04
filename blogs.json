@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Welcome to LegionOS Blog",
+        "subtitle": "News & Updates",
+        "date": "2026-10-15",
+        "file": "blog1.md",
+        "type": "developer"
+    },
+    {
+        "title": "Device Requirements",
+        "subtitle": "Device side requirements for OFFICIAL",
+        "date": "2021-03-29",
+        "file": "2021-03-29-Devicerequirements.md",
+        "type": "developer"
+    },
+    {
+        "title": "Maintaining of LegionOS",
+        "subtitle": "BUILD OFFICIAL",
+        "date": "2021-03-29",
+        "file": "2021-03-29-Maintainer.md",
+        "type": "developer"
+    },
+    {
+        "title": "Code Of Conduct",
+        "subtitle": "Important rules",
+        "date": "2021-03-30",
+        "file": "2021-03-30-Codeofconduct.md",
+        "type": "developer"
+    },
+    {
+        "title": "Kernel Guidelines",
+        "subtitle": "Important rules",
+        "date": "2021-03-30",
+        "file": "2021-03-30-Kernelguidelines.md",
+        "type": "developer"
+    },
+    {
+        "title": "Build Officially",
+        "subtitle": "Stuff needed to build officially",
+        "date": "2021-03-30",
+        "file": "2021-03-30-Flags.md",
+        "type": "developer"
+    },
+    {
+        "title": "Pull Requests",
+        "subtitle": "Needed",
+        "date": "2021-03-30",
+        "file": "2021-03-30-Prs.md",
+        "type": "developer"
+    },
+    {
+        "title": "LegionOS (3.7)",
+        "subtitle": "Mar 2021 Update",
+        "date": "2021-03-01",
+        "file": "2021-03-01-MarchPatch.md",
+        "type": "changelog"
+    },
+    {
+        "title": "LegionOS (3.8)",
+        "subtitle": "Apr 2021 Update",
+        "date": "2021-04-01",
+        "file": "2021-04-01-AprilPatch.md",
+        "type": "changelog"
+    }
+]
