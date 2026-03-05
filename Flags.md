@@ -1,0 +1,51 @@
+# Welcome to LegionOS Blog
+
+**Author**: Raj Kale
+
+
+## Things to do before you need to build OFFICIAL/OFFICIALLY
+
+- Ask the core team members for the LegionOS-Devices github org access and push your repos
+        
+    - Push in the same branch name as the rom's branch name [eg: 11/12/snowcone/T]
+
+    - Must have the dependencies properly added in the legion.dependencies file and the file should be formatted well
+
+    - Also must name the repo only like [vendor_branch_device(chip)/vendor_branch_device(chip)-common] no other naming will be encouraged nor supported **Exception Exist under some cases**
+
+- Ask the core team members for the legionrom sourceforge access 
+
+- Run the command  "ssh username@frs.sourceforge.net" once u get your sourceforge access [This needs to be done everytime if u change ur pc/format it]
+
+## Flags to add before you need to build OFFICIAL/OFFICIALLY
+        
+
+        -> LEGION_BUILD_TYPE := OFFICIAL
+
+	-> ro.legion.maintainer=Dr.RajKale
+
+	-> Need this overlay (https://github.com/legionos-devices/android_device_realme_rmx3371/commit/6aba7ecb5ac3cf9c5cd17b0f90dae397ae67a6fc)
+
+>`No other flags needed to be added.`
+
+## To  push ur device update/release to our chanel  and do OTA 
+    
+- Just fork the OTA repo in the LegionOS-Device github org repo and then clone it to the source dir then do "python3 OTA/support/ota.py" then  add your devicr changelog then push the changes to your git then make the pull
+request and everyhting should be good
+
+## Note :- 
+
+- DO NOT edit the json manually
+
+- DO NOT edit the script also read
+
+- Do check the git history on how the files are changed and do accordingly
+
+- Must update the tree to the org and make it public
+
+- If the above rules are not followed you will be removed (just kidding, but can be real too, so be careful)
+
+
+### Before these make sure u pull request [HERE](https://github.com/Project-LegionOS/vendor_legion/blob/11/legion.devices) and [HERE](https://github.com/legionos-devices/OTA/blob/11/devices.json) before u do all
+
+### Also rememebr xda thread is a must ..check [HERE](https://raw.githubusercontent.com/Project-LegionOS/Docs/master/XDA_Template) for template
